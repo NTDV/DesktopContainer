@@ -3,14 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DesktopContainer.Views"
+        xmlns:windows="clr-namespace:DesktopContainer.Views.Windows"
         mc:Ignorable="d"
-        Title="MainContainer" 
-        WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" 
-        AllowsTransparency="True"
+        Title="MainContainer"
+        WindowStyle="None" Background="#02000000" AllowsTransparency="True" ResizeMode="NoResize" BorderThickness="0"
+        ShowInTaskbar="False" WindowStartupLocation="CenterScreen"
         Height="500" Width="500"
-        Activated="MainContainer_OnActivated">
-    <Grid>
-        <Button x:Name="DeactivateButton" Margin="0,0,0,230">Click</Button>
-    </Grid>
+        Activated="MainContainer_OnActivated" Loaded="MainContainer_OnLoaded" UseLayoutRounding="True">
+    <ListView Background="Transparent" x:Name="IconsContainer" AllowDrop="True" Drop="IconsContainer_OnDrop" RenderOptions.BitmapScalingMode="HighQuality">
+
+    </ListView>
 </Window>

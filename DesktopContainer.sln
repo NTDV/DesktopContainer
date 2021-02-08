@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopContainer", "DesktopContainer\DesktopContainer.csproj", "{EBFE3674-0B53-4DD0-A63F-CF9AD4E92B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopContainer", "DesktopContainer\DesktopContainer.csproj", "{EBFE3674-0B53-4DD0-A63F-CF9AD4E92B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellProvider", "ShellProvider\ShellProvider.csproj", "{9A255E5B-3B76-4D81-A4A6-83B0F9BED773}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EBFE3674-0B53-4DD0-A63F-CF9AD4E92B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBFE3674-0B53-4DD0-A63F-CF9AD4E92B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBFE3674-0B53-4DD0-A63F-CF9AD4E92B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A255E5B-3B76-4D81-A4A6-83B0F9BED773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A255E5B-3B76-4D81-A4A6-83B0F9BED773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A255E5B-3B76-4D81-A4A6-83B0F9BED773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A255E5B-3B76-4D81-A4A6-83B0F9BED773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
